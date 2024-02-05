@@ -1,5 +1,38 @@
 # Inheritance
 
+class A:
+    def __init__(self, name):
+        self.name = name
+
+    def disp(self):
+        print("Name is:", self.name)
+
+
+'''
+a = A("Aman")
+a.disp()
+'''
+
+
+class B(A):
+    def __init__(self, name, age):
+
+        self.age = age
+        A.__init__(self, name)
+
+    def disp2(self):
+
+        print("My name is", self.name)
+        print("My age is", self.age)
+
+'''b = B("aman",12)
+b.disp()
+b.disp2()
+'''
+
+
+
+
 # Multi level
 class A:
     def __init__(self, name):
