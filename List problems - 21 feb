@@ -1,0 +1,130 @@
+// write a porgram to find 2nd minimum from a given list -
+
+li = [] 
+n = int(input("Enter the number of elements: "))
+for i in range(1, n+1): 
+    elem = int(input("Enter the elements: ")) 
+    li.append(elem) 
+li.sort() 
+
+print("The sorted list: ", li) 
+print("The second smallest value of this list: ",li[1])
+
+
+write a program to remove duplicate from a given list using list comprehension -
+
+// Using set()
+ 
+# initializing list 
+sam_list = [11, 15, 13, 16, 13, 15, 16, 11] 
+print ("The list is: " + str(sam_list)) 
+
+# to remove duplicated from list 
+sam_list = list(set(sam_list)) 
+
+# printing list after removal 
+# ordering distorted
+print ("The list after removing duplicates: " + str(sam_list)) 
+
+
+// Using a For Loop
+
+# removing duplicated from the list using naive methods 
+
+# initializing list 
+sam_list = [11, 13, 15, 16, 13, 15, 16, 11] 
+print ("The list is: " + str(sam_list)) 
+
+# remove duplicated from list 
+result = [] 
+for i in sam_list: 
+    if i not in result: 
+        result.append(i) 
+
+# printing list after removal 
+print ("The list after removing duplicates : " + str(result))
+
+
+
+// Write a Python program to sum all the items in a list.
+
+li = [] 
+n = int(input("Enter the number of elements: "))
+lst = [int(input("Enter the elements")) for i in range(n)]
+sum = 0
+
+for i in lst:
+    sum += i
+    
+print(sum)
+
+
+// Write a Python program to multiply all the items in a list.
+
+li = [] 
+n = int(input("Enter the number of elements: "))
+lst = [int(input("Enter the elements")) for i in range(n)]
+pro = 1
+
+for i in lst:
+    pro *= i
+    
+print(pro)
+
+
+// Write a Python program to get the largest number from a list.
+
+li = [] 
+n = int(input("Enter the number of elements: "))
+for i in range(1, n+1): 
+    elem = int(input("Enter the elements: ")) 
+    li.append(elem) 
+
+li.sort() 
+
+print("The sorted list: ", li) 
+print("The second smallest value of this list: ",li[n-1])
+
+
+// Write a Python program to get the smallest number from a list.
+
+li = [] 
+n = int(input("Enter the number of elements: "))
+for i in range(1, n+1): 
+    elem = int(input("Enter the elements: ")) 
+    li.append(elem) 
+
+li.sort() 
+
+print("The sorted list: ", li) 
+print("The second smallest value of this list: ",li[0])
+
+
+// Write a Python program to remove duplicates from a list.
+
+li = [] 
+n = int(input("Enter the number of elements: "))
+lst = [int(input("Enter the elements")) for i in range(n)]
+
+new_lst = []
+for i in lst:
+    if i not in new_lst:
+        new_lst.append(i)
+
+print(new_lst)
+
+
+// list of words length longer than n
+
+size = int(input("Enter the number of elements: "))
+lst = [(input("enter the elements")) for i in range (size)]
+n = int(input("Enter the lenegth of word"))
+
+new_lst = []
+for i in lst:
+    if(len(i)>n):
+        new_lst.append(i)
+        
+print(new_lst)
+
+
