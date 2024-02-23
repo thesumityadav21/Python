@@ -1,0 +1,25 @@
+# WAP TO Print Tuple
+t = (1, 2, 3, 4, 5, 6, 7, "Aman")
+print(t)
+
+# 2
+for i in t:
+    print(i)
+
+# WAP to Reverse the tuple
+
+b = t[::-1]
+print(b)'''
+
+
+# Sorting the Tuple + finding smallest in the tuple + size of the tuple
+
+t = tuple(input("Enter the number of elements: ").split(","))
+count = 0
+
+print(t)
+list(t).sort()
+print(t[1])
+print("Size of the tuple: " + str(sys.getsizeof(t)) + " Bytes")
+
+
