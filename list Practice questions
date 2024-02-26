@@ -1,0 +1,63 @@
+QUESTIONS ON LIST :
+
+Basic Level: 
+Write a Python program to sum all the items in a list. 
+Write a Python program to multiply all the items in a list. 
+Write a Python program to find the largest number in a list. 
+Write a Python program to find the smallest number in a list. 
+Write a Python program to count the number of elements in a list. 
+Write a Python program to find the average of elements in a list. 
+Write a Python program to remove duplicates from a list. 
+Write a Python program to check if a list is empty. 
+Write a Python program to reverse a list. 
+Write a Python program to find the index of an element in a list.
+ 
+Intermediate Level: 
+Write a Python program to find the second largest number in a list. 
+Write a Python program to merge two lists into a single sorted list. 
+Write a Python program to check if two lists have at least one common element. 
+Write a Python program to check if a list is a palindrome. 
+Write a Python program to split a list into chunks of a given size. 
+Write a Python program to sort a list of tuples based on the second element. 
+Write a Python program to find the intersection of two lists. 
+Write a Python program to find the union of two lists. 
+Write a Python program to find the difference between two lists. 
+Write a Python program to remove elements from a list by value.
+
+QUESTIONS ON LIST COMPREHENSION :
+
+Basic Level: 
+Write a Python program to create a list of squares of numbers from 1 to 10 using list comprehension. 
+Write a Python program to create a list of even numbers from 1 to 20 using list comprehension. 
+Write a Python program to create a list of cubes of numbers from 1 to 10 using list comprehension. 
+Write a Python program to create a list of uppercase letters from a given string using list comprehension. 
+Write a Python program to create a list of lengths of words from a given sentence using list comprehension. 
+Write a Python program to create a list of vowels from a given string using list comprehension. 
+Write a Python program to create a list of prime numbers up to 50 using list comprehension. 
+Write a Python program to create a list of strings where each string is a combination of a number from 1 to 5 and a letter from 'a' to 'c' using list comprehension. 
+Write a Python program to create a list of tuples where each tuple contains a number and its square using list comprehension. 
+Write a Python program to create a list of strings where each string is a combination of a lowercase letter and its corresponding uppercase letter using list comprehension.
+ 
+Intermediate Level: 
+Write a Python program to create a list of even squares of numbers from 1 to 20 using list comprehension. 
+Write a Python program to create a list of lists where each inner list contains numbers from 1 to n using list comprehension. 
+Write a Python program to create a list of strings where each string is a palindrome using list comprehension. 
+Write a Python program to create a list of common elements from two given lists using list comprehension. 
+Write a Python program to create a list of strings where each string is a reverse of a word from a given sentence using list comprehension. 
+Write a Python program to create a list of tuples where each tuple contains a number and its factorial using list comprehension. 
+Write a Python program to create a list of strings where each string represents a number from 1 to 10 in binary using list comprehension. 
+Write a Python program to create a list of strings where each string is formed by concatenating two strings from given lists using list comprehension. 
+Write a Python program to create a list of strings where each string is formed by combining characters from two given strings using list comprehension. 
+Write a Python program to create a list of sets where each set contains vowels from a word and its corresponding uppercase letters using list comprehension.
+ 
+Advanced Level: 
+Write a Python program to create a list of all possible combinations of elements from two given lists using list comprehension. 
+Write a Python program to create a list of all possible permutations of elements from a given list using list comprehension. 
+Write a Python program to create a list of Fibonacci numbers up to 50 using list comprehension. 
+Write a Python program to create a list of all subsets of a given set using list comprehension. 
+Write a Python program to create a list of strings where each string is formed by removing vowels from a word from a given sentence using list comprehension. 
+Write a Python program to create a list of all possible partitions of a given list using list comprehension. 
+Write a Python program to create a list of strings where each string represents a number from 1 to 10 in hexadecimal using list comprehension. 
+Write a Python program to create a list of all possible paths in a grid from top-left to bottom-right using list comprehension. 
+Write a Python program to create a list of strings where each string represents a word from a given sentence in reverse order using list comprehension. 
+Write a Python program to create a list of all possible combinations of parentheses for a given n using list comprehension.
