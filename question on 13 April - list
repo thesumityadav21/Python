@@ -1,0 +1,23 @@
+if there is list of price add 18% gst if more than 500 & give discount of 5% on every product price. 
+try next -> make gst and discount as input
+
+def pri(price: list):
+
+    for i in range(len(price)):  # Iterate using index
+        if price[i] > 500:
+            price[i] += price[i] * 18 / 100
+
+        price[i] -= price[i] * 5 / 100
+
+n = int(input())
+
+price = []
+
+for s in range(n):
+    ele = int(input("enter the ele"))
+    price.append(ele)
+
+pri(price)  # Call the function to adjust prices in place
+
+print(f"Adjusted Prices: {price}")
+
